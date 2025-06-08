@@ -1,0 +1,17 @@
+# Build artifacts
+*.o
+rtmp_server
+
+# Debug files
+*.gdb_history
+core
+vgcore.*
+
+# Editor files
+*~
+.*.swp
+.*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
