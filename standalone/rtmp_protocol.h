@@ -51,11 +51,6 @@
 #define RTMP_USER_BUFFER_END            31
 
 /* RTMP handshake stages */
-#define RTMP_HANDSHAKE_SERVER_RECV_CHALLENGE1     0
-#define RTMP_HANDSHAKE_SERVER_SEND_CHALLENGE2     1
-#define RTMP_HANDSHAKE_SERVER_RECV_CHALLENGE2     2
-#define RTMP_HANDSHAKE_SERVER_SEND_RESPONSE       3
-#define RTMP_HANDSHAKE_DONE                       4
 
 /* RTMP Header structure */
 typedef struct {

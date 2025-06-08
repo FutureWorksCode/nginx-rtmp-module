@@ -11,6 +11,7 @@
 #include "rtmp_pool.h"
 #include "rtmp_connection.h"
 #include "rtmp_log.h"
+#include <time.h>
 
 /* Map nginx types to standalone types for compatibility */
 #define ngx_int_t           rtmp_int_t
@@ -98,6 +99,7 @@
 
 /* Chain constants */
 #define NGX_CHAIN_ERROR     ((rtmp_chain_t *) -1)
+#define RTMP_CHAIN_ERROR    NGX_CHAIN_ERROR
 
 /* Socket error constants */
 #define NGX_EAGAIN          EAGAIN
